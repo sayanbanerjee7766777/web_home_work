@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth_child_selector</title>
+    <style>
+        p:nth-child(odd){
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 50%;
+            
+        }
+        p:nth-child(6){
+            background-color: rgb(114, 1, 75);
+         }
+
+         p:nth-child(4){
+            background-color: rgb(49, 165, 23);
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p>paragraph 1 is good</p>
+        <p>paragraph 2 is good</p>
+        <p>paragraph 3 is good</p>
+        <p>paragraph 4 is good</p>
+        <p>paragraph 5  is good</p>
+        <p>paragraph 6  is good</p>
+    </div>
+    <div>
+        <p>paragraph 7 is good</p>
+        <div>
+            <p>paragraph  8 is good</p>
+            <p>paragraph 9 is good</p>
+            <p>paragraph 10  is good</p>
+            <div>
+                <p>paragraph 11 good</p>
+                <p>paragraph  12 good</p>
+
+            </div>
+            <p>paragraph 13 is good</p>
+
+        </div>
+        <p>paragraph 14 is good</p>
+        <p>paragraph 15 is good</p>
+
+    </div>
+</body>
+</html>

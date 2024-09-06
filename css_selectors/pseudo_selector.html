@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector </title>
+    <style>
+        
+        p::after{
+            content: "ASIA";
+            font-size: 36px;
+            
+        }
+        p::first-letter{
+            color: #e50c0c;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <p>Pakistan</p>
+    <p>Srilanka</p>
+    <div>
+        <p>India</p>
+        <p>India</p>
+    </div>
+
+    <div>
+        <p>Pakistan</p>
+    </div>
+
+    <p>Bangladesh</p>
+</body>
+
+</html>

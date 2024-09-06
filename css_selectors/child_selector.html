@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>child_selector</title>
+    <style>
+        div > p{
+            background-color: aqua;
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p> sentence is no 1</p>
+        <div>
+            <h1>sentence is no 2</h1>
+            <p>
+                <h3>sentence is no 3</h3>  // problem useing span
+            </p>
+            <p>sentence is no 4</p>
+        </div>
+    </div>
+    <div>
+        <h5>sentence is no 5</h5>
+        <section>
+            <p>sentence is no 6</p>
+        </section>
+        <p>sentence is no 7</p>
+    </div>
+</body>
+</html>

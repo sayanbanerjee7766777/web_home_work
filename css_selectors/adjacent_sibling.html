@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent_Sibling</title>
+
+    <style>
+        span + p {
+            background-color: yellow;
+            color: brown;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span> this is 1st sentence</span>
+        <p> this is 2nd sentence</p>
+        <div>
+            <h5> this is 3rd sentence</h5>
+            <span> this is 4th sentence</span>
+            <p> this is 5th sentence</p>
+        </div>
+        <div>
+            <span> this is 6th sentence</span>
+        </div>
+    </div>
+    <p> this is 7th sentence</p>
+    <span> this is 8th sentence</span>
+    <div> this is 9th sentence</div>
+    <p> this is 10th sentence</p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+   
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .footer {
+    background-color: lightgreen;
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.middele_div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.box1 {
+    height: 400px;
+    width: 25%;
+    background-color: lightgreen;
+    margin-right: 25px; 
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    gap: 25px;
+}
+
+.box_box1 {
+    height: 75%;
+    background-color: lightgreen;
+    
+}
+.box_box2{
+    height: 25%;
+    background-color: lightgreen;
+}
+ p{
+    margin-left: 30px;
+    font-size: 25px;
+    padding-top: 15px;
+}

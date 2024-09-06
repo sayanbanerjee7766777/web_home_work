@@ -1,0 +1,76 @@
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #eaeea1;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 55px;
+    color: #e91636bb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; 
+}
+
+.month_heading {
+    background-color: #eb18a8;
+    color: #f0f3f3;
+    padding: 10px 0;
+    font-weight: 900;
+
+}
+
+.month_details {
+    width: 30%;
+    margin: 0 auto;
+    
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+th{
+    background-color:#e14ab2; ;
+}
+
+
+td {
+    color: #333;
+    background-color: #d790d1;
+    /* border: 1px solid #ece521; */
+    transition: background-color 0.3s;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+ .sunday{
+    background-color: red;
+    color: #fff;
+    padding:0 ;
+ }
+ .images{
+    width: 30px;
+ }
+ .text{
+    font-size: 10px;
+    padding:0 ;
+    font-style: italic;
+    color: rgb(69, 42, 239);
+    background-color:#d6d790;
+ }
+ .nature{
+    padding: 0px;
+ }
